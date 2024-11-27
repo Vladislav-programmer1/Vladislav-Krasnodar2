@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0358ae0e-5a03-420d-be4c-04ef155b8f4a" name="Changes" comment="Новое изменение">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0358ae0e-5a03-420d-be4c-04ef155b8f4a" name="Changes" comment="Программа со случайным кругом">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/program.py" beforeDir="false" afterPath="$PROJECT_DIR$/program.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +28,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/program.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/program.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
@@ -127,7 +125,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732680577700</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Программа со случайным кругом">
+      <option name="closed" value="true" />
+      <created>1732718516526</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732718516526</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Программа со случайным кругом">
+      <option name="closed" value="true" />
+      <created>1732718985970</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732718985970</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +157,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Новое изменение" />
-    <option name="LAST_COMMIT_MESSAGE" value="Новое изменение" />
+    <MESSAGE value="Программа со случайным кругом" />
+    <option name="LAST_COMMIT_MESSAGE" value="Программа со случайным кругом" />
   </component>
 </project>

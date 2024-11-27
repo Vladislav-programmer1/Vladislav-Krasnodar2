@@ -7,11 +7,13 @@ from PyQt6 import uic
 
 from random import randrange
 
+from circle import Ui_Form
 
-class CircleDrawing(QWidget):
+
+class CircleDrawing(QWidget, Ui_Form):
     def __init__(self):
         super().__init__()
-        uic.loadUi('circle.ui', self)
+        self.setupUi(self)
         self.setFixedSize(500, 800)
         self.do_paint = False
 
@@ -34,7 +36,9 @@ class CircleDrawing(QWidget):
         x, y = randrange(0, 100) + 200, randrange(0, 400) + 200
         size = randrange(0, 200)
 
-        painter.setBrush(QColor('#FFFF00'))
+        painter.setBrush(QColor(randrange(0, 255),
+                                randrange(0, 255),
+                                randrange(0, 255)))
         painter.drawEllipse(QRect(x, y, size, size))
 
 
